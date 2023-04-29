@@ -134,7 +134,7 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  size: cover;
+  background-size: cover;
 }
 
 .recipes__title {
