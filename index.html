@@ -99,7 +99,29 @@
           </div>
         </section>
         <section class="menu" id="page-menu"></section>
-        <section class="reservation" id="page-reservation"></section>
+        <section class="reservation" id="page-reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input id="name" type="text" placeholder="Name Surname" class="form__input" required/>
+              <label for="guest-count" class="form__label">Number of guests *</label>
+              <input id="guest-count" type="number" min="1" max="8" placeholder="1-8" class="form__input" required/>
+              <label for="date-time" class="form__label">Date & time *</label>
+              <input id="date-time" type="date" class="form__input" required/>
+              <label for="mail" class="form__label">Your email *</label>
+              <input id="mail" type="email" placeholder="email@email.com" class="form__input" required />
+            </fieldset>
+            <button type="submit" class="form__button" >
+              Book a table
+            </button>
+            <div class="form__checkbox-wrapper">
+              <input id="remember-me" class="form__checkbox" type="checkbox" />
+              <label for="remember-me" class="form__label">I agree with the terms of use</label>
+            </div>
+            </fieldset>
+          </form>
+        </section>
         <section class="about" id="contacts"></section>
       </main>
       <footer class="footer"></footer>
