@@ -22,10 +22,6 @@
   align-self: flex-end;
 }
 
-.header__paragraph-group {
-  margin-right: 700px;
-}
-
 .header__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -62,11 +58,15 @@
   margin-left: 80px;
 }
 .header__footer {
+  display: flex;
   position: absolute;
+  right: 80px;
   left: 80px;
   bottom: 40px;
-  display: flex;
-  margin-right: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: flex-end;
 }
 .header__image {
   width: 646px;
